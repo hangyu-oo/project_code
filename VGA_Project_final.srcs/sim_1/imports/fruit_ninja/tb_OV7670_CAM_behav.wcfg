@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_OV7670_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_OV7670" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4013009600fs"></ZoomStartTime>
+      <ZoomEndTime time="4296809601fs"></ZoomEndTime>
+      <Cursor1Time time="4144009600fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group55" type="group">
+      <obj_property name="label">SCCB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">PCLK_GEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group99" type="group">
+      <obj_property name="label">VGA_SYNCHER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_OV7670/DUT/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/h_sync" type="logic">
+         <obj_property name="ElementShortName">h_sync</obj_property>
+         <obj_property name="ObjectShortName">h_sync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/v_sync" type="logic">
+         <obj_property name="ElementShortName">v_sync</obj_property>
+         <obj_property name="ObjectShortName">v_sync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/DE" type="logic">
+         <obj_property name="ElementShortName">DE</obj_property>
+         <obj_property name="ObjectShortName">DE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/x_pixel" type="array">
+         <obj_property name="ElementShortName">x_pixel[9:0]</obj_property>
+         <obj_property name="ObjectShortName">x_pixel[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/y_pixel" type="array">
+         <obj_property name="ElementShortName">y_pixel[9:0]</obj_property>
+         <obj_property name="ObjectShortName">y_pixel[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/pclk" type="logic">
+         <obj_property name="ElementShortName">pclk</obj_property>
+         <obj_property name="ObjectShortName">pclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/h_counter" type="array">
+         <obj_property name="ElementShortName">h_counter[9:0]</obj_property>
+         <obj_property name="ObjectShortName">h_counter[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OV7670/DUT/v_counter" type="array">
+         <obj_property name="ElementShortName">v_counter[9:0]</obj_property>
+         <obj_property name="ObjectShortName">v_counter[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group110" type="group">
+      <obj_property name="label">OV7670_Mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group130" type="group">
+      <obj_property name="label">QVGA_Reader</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group121" type="group">
+      <obj_property name="label">Frame_Buffer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group145" type="group">
+      <obj_property name="label">RedDetection</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group170" type="group">
+      <obj_property name="label">RedTracking</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
